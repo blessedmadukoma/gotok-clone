@@ -1,10 +1,13 @@
 const Header = () => {
   return (
-    <section className="p-5 mx-3 mt-3 bg-white rounded-full flex justify-between items-center">
-      <img src="./logo.svg" alt="Gotok" />
+    <section className=" p-3 mx-10 mt-3 bg-white rounded-full flex flex-row justify-between items-center md:w-[70%]">
+      <div className=" ml-2">
+        <img src="./logo.svg" alt="Gotok" className="isolate mt-2" />
+      </div>
 
       <div className="flex-1 font-medium font-text tracking-widest">
-        <ul className="flex justify-end space-x-10 items-center">
+        {/* <ul className="flex justify-end space-x-8 items-center sm:space-x-2"> */}
+        <ul className="flex justify-end sm:space-x-4 md:space-x-8 lg:space-x-10 items-center">
           <li>
             <a href="#">Home</a>
           </li>
