@@ -17,6 +17,7 @@ module.exports = {
         labilgroteskBold: ["labilgroteskBold", "sans-serif"],
         labilgroteskMedium: ["labilgroteskMedium", "sans-serif"],
         rotunda: ["Rotunda", "sans-serif"],
+        text: ["Arial", "sans-serif"],
       },
       colors: {
         "primary-purple": "#6d23f9",
