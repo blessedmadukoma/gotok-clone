@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Rotunda";
+  src: url("../../fonts/Rotunda/Rotunda.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "labilgroteskBold";
+  src: url("../../fonts/labilgrotesk/LilGrotesk-Bold.otf");
+  font-weight: bold;
+  font-style: bold;
+}
+
+@font-face {
+  font-family: "labilgroteskRegular";
+  src: url("../../fonts/labilgrotesk/LilGrotesk-Regular.otf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "labilgroteskMedium";
+  src: url("../../fonts/labilgrotesk/LabilGrotesk-Medium.ttf");
+  font-weight: medium;
+  font-style: medium;
+}
+
+body {
+  font-family: "labilgroteskMedium", sans-serif;
+  /* font-family: "labilgroteskBold", sans-serif; */
+  /* font-family: "labilgroteskRegular", sans-serif; */
+  /* font-family: "Rotunda", sans-serif; */
+  /* font-family: Arial, sans-serif; */
+}
