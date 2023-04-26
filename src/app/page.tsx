@@ -83,7 +83,7 @@ export default function Home() {
             </section>
 
             <section className="mt-20 grid grid-cols-5 gap-10 text-left text-2xl">
-              <section className="col-span-3 m-4 rounded-3xl bg-white">
+              <section className="col-span-3 rounded-3xl bg-white p-4">
                 <h1 className="w-[200px]">
                   <span>Flexible </span>Funding Options
                 </h1>
