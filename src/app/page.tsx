@@ -44,6 +44,29 @@ export default function Home() {
             <img src="./appstore.svg" alt="" />
           </a>
         </section>
+
+        <section className="bg-primary-purple w-full rounded-t-2xl text-white pt-4 text-xl overflow-x-hidden">
+          <section className="flex justify-evenly space-x-12 mb-6 mx-6 animate-marquee whitespace-nowrap">
+            <span className="flex items-center space-x-1">
+              <img src="./check-verified.svg" alt="Verified" />
+              <span>Pay bills with Gotok ✨</span>
+            </span>
+            <span className="flex items-center space-x-1">
+              <img src="./check-verified.svg" alt="Verified" />
+              <span>Easiest way to spend online ✨</span>
+            </span>
+            <span className="flex items-center space-x-1">
+              <img src="./check-verified.svg" alt="Verified" />
+              <span>Refer a friend and get earn 25% ✨</span>
+            </span>
+            <span className="flex items-center space-x-1">
+              <img src="./check-verified.svg" alt="Verified" />
+              <span>Spend internationally with USD card ✨</span>
+            </span>
+          </section>
+
+          <section className="w-full bg-white rounded-t-2xl">Hi</section>
+        </section>
       </div>
     </main>
   );
