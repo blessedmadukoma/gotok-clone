@@ -6,7 +6,6 @@ const Header = () => {
       </div>
 
       <div className="flex-1 font-medium font-text tracking-widest">
-        {/* <ul className="flex justify-end space-x-8 items-center sm:space-x-2"> */}
         <ul className="flex justify-end sm:space-x-4 md:space-x-8 lg:space-x-10 items-center">
           <li>
             <a href="#">Home</a>
