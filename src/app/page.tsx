@@ -45,7 +45,7 @@ export default function Home() {
           </a>
         </section>
 
-        <section className="bg-primary-purple w-full rounded-t-2xl text-white pt-4 text-xl overflow-x-hidden">
+        <section className="bg-primary-purple w-full rounded-t-[40px] text-white pt-4 text-xl overflow-x-hidden font-labilgroteskMedium">
           <section className="flex justify-evenly space-x-12 mb-6 mx-6 animate-marquee whitespace-nowrap">
             <span className="flex items-center space-x-1">
               <img src="./check-verified.svg" alt="Verified" />
@@ -65,7 +65,23 @@ export default function Home() {
             </span>
           </section>
 
-          <section className="w-full bg-white rounded-t-2xl">Hi</section>
+          <section className="w-full bg-white rounded-t-[40px] text-center text-4xl min-h-screen text-[#888682]">
+            <section className="pt-8 px-12 text-left space-y-4">
+              <h4 className="tracking-wide">
+                Create a{" "}
+                <span className="text-primary-purple">
+                  dollar virtual card{" "}
+                </span>
+                💳 fund it from your 💼 bank, binance or solana wallet
+              </h4>
+              <h4>
+                <span className="text-primary-purple">make payments </span>
+                <span className="text-[#1b1b1e]">
+                  on Amazon, PayPal, Netflix and anywhere online 🤯 🤩
+                </span>
+              </h4>
+            </section>
+          </section>
         </section>
       </div>
     </main>
