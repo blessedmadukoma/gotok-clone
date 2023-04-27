@@ -4,8 +4,6 @@ import Header from "@/components/Header";
 
 export default function Home() {
   return (
-    // <main className="flex min-h-screen flex-col items-center justify-between p-24">
-    // linear-gradient(90deg,#fee1a7 1px,transparent 0),linear-gradient(180deg,#fee1a7 1px,transparent 0);
     <main className="min-h-screen bg-[#feebc7]">
       <div className="flex flex-col items-center space-y-10">
         <Header />
