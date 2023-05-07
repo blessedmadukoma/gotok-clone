@@ -1,4 +1,5 @@
 import Header from "@/components/Header";
+import Marquee from "react-fast-marquee";
 
 export default function Home() {
   return (
@@ -41,25 +42,25 @@ export default function Home() {
           </a>
         </section>
 
-        <section className="w-full overflow-x-hidden rounded-t-[40px] bg-primary-purple pt-4 font-labilgroteskMedium text-xl text-white">
-          <section className="mx-6 mb-6 flex animate-marquee justify-evenly space-x-12 whitespace-nowrap">
-            <span className="flex items-center space-x-1">
+        <section className="w-full rounded-t-[40px] bg-primary-purple pt-4 font-labilgroteskMedium text-xl text-white">
+          <Marquee className="mb-6">
+            <p className="mr-14 flex items-center space-x-1">
               <img src="./check-verified.svg" alt="Verified" />
               <span>Pay bills with Gotok ✨</span>
-            </span>
-            <span className="flex items-center space-x-1">
+            </p>
+            <p className="mr-14 flex items-center space-x-1">
               <img src="./check-verified.svg" alt="Verified" />
               <span>Easiest way to spend online ✨</span>
-            </span>
-            <span className="flex items-center space-x-1">
+            </p>
+            <p className="mr-14 flex items-center space-x-1">
               <img src="./check-verified.svg" alt="Verified" />
               <span>Refer a friend and get earn 25% ✨</span>
-            </span>
-            <span className="flex items-center space-x-1">
+            </p>
+            <p className="flex items-center space-x-1">
               <img src="./check-verified.svg" alt="Verified" />
               <span>Spend internationally with USD card ✨</span>
-            </span>
-          </section>
+            </p>
+          </Marquee>
 
           <section className="min-h-screen w-full rounded-t-[40px] bg-[#fff9eb] px-28 text-center text-5xl text-[#888682]">
             <section className="space-y-4 pt-8 text-left">
@@ -133,7 +134,7 @@ export default function Home() {
                 />
               </section>
 
-              <section className="space-y-3 rounded-3xl bg-white px-6 pt-6 md:col-span-2 lg:col-span-2">
+              <section className="space-y-5 rounded-3xl bg-white px-6 pt-6 md:col-span-2 lg:col-span-2">
                 <h2 className="text-gray-900">
                   Create <span>Multiple Cards</span>
                 </h2>
@@ -144,7 +145,7 @@ export default function Home() {
                   purposes.
                 </span>
 
-                <div className="">
+                <div>
                   <a
                     href="https://web.gotok.app"
                     className="rounded-full bg-gradient-to-r from-[#091c30] to-[#1b1144] px-5 py-3 font-labilgroteskRegular text-sm tracking-wider text-white"
@@ -153,12 +154,11 @@ export default function Home() {
                   </a>
                 </div>
 
-                <div>
-                  <img
-                    src="https://gotok.app/static/media/card-multiple.560eff34a9eae69462827d1f08243b14.svg"
-                    alt=""
-                  />
-                </div>
+                <img
+                  src="https://gotok.app/static/media/card-multiple.560eff34a9eae69462827d1f08243b14.svg"
+                  alt=""
+                  // className="absolute bottom-0"
+                />
               </section>
 
               <section className="space-y-8 rounded-3xl bg-white pb-6 pt-6 md:col-span-3 lg:col-span-3">
@@ -173,10 +173,16 @@ export default function Home() {
                   </span>
                 </div>
 
-                <div className="relative z-0">
+                <div className="relative flex flex-col items-center">
+                  <img
+                    src="https://gotok.app/static/media/lightening.f421e8282089ea967d11094220e3be90.svg"
+                    alt=""
+                    className="absolute -top-12 right-0 w-[19%]"
+                  />
                   <img
                     src="https://gotok.app/static/media/cards-variant.61b3422912e96d7768a92a35be5e5b40.svg"
                     alt=""
+                    className="w-9/12"
                   />
                 </div>
               </section>
