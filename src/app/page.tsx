@@ -61,7 +61,7 @@ export default function Home() {
             </span>
           </section>
 
-          <section className="min-h-screen w-full rounded-t-[40px] bg-[#fff9eb] px-40 text-center text-5xl text-[#888682]">
+          <section className="min-h-screen w-full rounded-t-[40px] bg-[#fff9eb] px-28 text-center text-5xl text-[#888682]">
             <section className="space-y-4 pt-8 text-left">
               <h4 className="tracking-wide">
                 Create a{" "}
@@ -72,26 +72,134 @@ export default function Home() {
               </h4>
               <h4>
                 <span className="text-primary-purple">make payments </span>
-                <span className="text-[#1b1b1e]">
+                <span className=" text-[#1b1b1e]">
                   on Amazon, PayPal, Netflix and anywhere online 🤯 🤩
                 </span>
               </h4>
             </section>
 
-            <section className="mt-20 grid grid-cols-5 gap-10 text-left text-2xl">
-              <section className="col-span-3 rounded-3xl bg-white p-4">
-                <h1 className="w-[200px]">
+            <section className="mt-20 grid gap-10 pb-20 text-left text-2xl text-gray-900 md:grid-cols-5 lg:grid-cols-5">
+              <section className="space-y-4 rounded-3xl bg-white px-6 pt-6 md:col-span-3 lg:col-span-3">
+                <h1 className="max-w-xs">
                   <span>Flexible </span>Funding Options
                 </h1>
-                <span className="w-[200px]">
+                <span className="w-[200px] font-labilgroteskRegular text-sm tracking-wide">
                   Funding ease at its best with gotok with multiple options
                   allowing users flexibility when it comes to financing their
                   purchases.
                 </span>
+
+                <div className="">
+                  <button className="rounded-full bg-primary-purple p-4 font-labilgroteskRegular text-sm tracking-wider text-white">
+                    Download Gotok
+                  </button>
+                </div>
+                <div className="relative z-0">
+                  <img
+                    src="https://gotok.app/static/media/coin-features.64602ce92c43cce375922ffdc9b8603f.svg"
+                    alt=""
+                    className=" absolute right-0 top-0 z-50"
+                  />
+
+                  <img
+                    src="https://gotok.app/static/media/card-funding.bb913fcf9bbb8d0d9a3e4521a2b1e5db.svg"
+                    alt=""
+                  />
+                </div>
               </section>
-              <section className="col-span-2 rounded-3xl bg-white">2</section>
+
+              <section className="space-y-3 rounded-3xl bg-white px-6 pt-6 md:col-span-2 lg:col-span-2">
+                <h2 className="text-gray-900">
+                  Over <span>$4000</span> Daily Limit
+                </h2>
+                <div className="relative">
+                  <span className="font-labilgroteskRegular text-sm">
+                    The daily limit of over $4000 for transactions provides
+                    users with a high level of flexibility when it comes to
+                    making purchases
+                  </span>
+
+                  <img
+                    src="https://gotok.app/static/media/paper-planes.861afa4f8519bb97c3ada96fdd5c2ddd.svg"
+                    alt=""
+                    className="absolute right-10 top-10 w-1/5"
+                  />
+                </div>
+
+                <img
+                  className="pt-10 font-labilgroteskRegular text-sm"
+                  src="https://gotok.app/static/media/limit.c4bd5ebb758ebad6f38ae58e693226cc.svg"
+                  alt="Gotok"
+                />
+              </section>
+
+              <section className="space-y-3 rounded-3xl bg-white px-6 pt-6 md:col-span-2 lg:col-span-2">
+                <h2 className="text-gray-900">
+                  Create <span>Multiple Cards</span>
+                </h2>
+
+                <span className="font-labilgroteskRegular text-sm">
+                  Say goodbye to the hassle of constantly canceling and
+                  reissuing cards by creating virtual ones for specific
+                  purposes.
+                </span>
+
+                <div className="">
+                  <a
+                    href="https://web.gotok.app"
+                    className="rounded-full bg-gradient-to-r from-[#091c30] to-[#1b1144] px-5 py-3 font-labilgroteskRegular text-sm tracking-wider text-white"
+                  >
+                    Create an account
+                  </a>
+                </div>
+
+                <div>
+                  <img
+                    src="https://gotok.app/static/media/card-multiple.560eff34a9eae69462827d1f08243b14.svg"
+                    alt=""
+                  />
+                </div>
+              </section>
+
+              <section className="space-y-8 rounded-3xl bg-white pb-6 pt-6 md:col-span-3 lg:col-span-3">
+                <div className="space-y-6 px-6 ">
+                  <h1 className="max-w-xs">
+                    Different
+                    <span> Card Variants </span>
+                  </h1>
+                  <span className="w-[200px] font-labilgroteskRegular text-sm tracking-wide">
+                    Master Card or Visa Choose from a variety of card options
+                    that fit your unique style and needs
+                  </span>
+                </div>
+
+                <div className="relative z-0">
+                  <img
+                    src="https://gotok.app/static/media/cards-variant.61b3422912e96d7768a92a35be5e5b40.svg"
+                    alt=""
+                  />
+                </div>
+              </section>
             </section>
           </section>
+        </section>
+
+        {/* Spend manage and pay section */}
+        <section>
+          {/* section: header */}
+          <section className="mx-[6.8rem] my-8 w-full space-y-6 text-6xl md:grid  md:grid-flow-row md:grid-cols-[repeat(12,1fr)] md:grid-rows-[repeat(8,auto)] md:gap-2">
+            <h3 className="col-start-2 col-end-[-1] row-start-1 row-end-3">
+              Spend 💸
+            </h3>{" "}
+            <h3 className="col-start-3 col-end-[-1] row-start-3 row-end-3">
+              <span>manage and pay</span> 🍿
+            </h3>
+            <h3 className="col-start-5 col-end-[-1] row-start-5 row-end-[8]">
+              {" "}
+              🛩️ bills with Gotok
+            </h3>
+          </section>
+          {/* section */}
         </section>
       </div>
     </main>
