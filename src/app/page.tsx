@@ -3,45 +3,47 @@ import Marquee from "react-fast-marquee";
 
 export default function Home() {
   return (
-    <main className="min-h-screen bg-[#feebc7]">
-      <div className="flex flex-col items-center space-y-10">
-        <Header />
+    <main className="min-h-screen">
+      <div>
+        <section
+          className="
+          flex flex-col items-center space-y-10 bg-[#feebc7]"
+        >
+          <Header />
+          <section className="font-text text-sm  font-medium">
+            <button className="from-90deg to-70.02% flex w-full items-center justify-between rounded-full bg-gradient-to-r from-[#6670f529] to-[#fde3d8bf] py-1 text-center">
+              <span className="mx-1 ml-2 tracking-wider">
+                Refer a friend & Get 25%
+              </span>
+              <span className="ml-2 mr-1 items-center rounded-full bg-[#f8dacf] p-1 px-2 text-center">
+                →
+              </span>
+            </button>
+          </section>
+          <section className="space-y-6 text-center">
+            <h2 className="max-w-[860px] text-center font-labilgroteskMedium text-7xl leading-[1.2]">
+              Smart International Payments
+            </h2>
 
-        <section className="font-text text-sm font-medium">
-          <button className="from-90deg to-70.02% flex w-full items-center justify-between rounded-full bg-gradient-to-r from-[#6670f529] to-[#fde3d8bf] py-1 text-center">
-            <span className="mx-1 ml-2 tracking-wider">
-              Refer a friend & Get 25%
-            </span>
-            <span className="ml-2 mr-1 items-center rounded-full bg-[#f8dacf] p-1 px-2 text-center">
-              →
-            </span>
-          </button>
+            <h4 className="flex-wrap text-center font-text text-2xl tracking-widest">
+              Spend, manage & pay bills worldwide with Gotok virtual cards
+            </h4>
+          </section>
+          <section className="flex items-center space-x-8 pb-10">
+            <a
+              href="https://play.google.com/store/apps/details?id=app.gotok"
+              target="_blank"
+            >
+              <img src="./playstore.svg" alt="" />
+            </a>
+            <a
+              href="https://apps.apple.com/ng/app/gotok/id6444884980"
+              target="_blank"
+            >
+              <img src="./appstore.svg" alt="" />
+            </a>
+          </section>
         </section>
-        <section className="space-y-6 text-center">
-          <h2 className="max-w-[860px] text-center font-labilgroteskMedium text-7xl leading-[1.2]">
-            Smart International Payments
-          </h2>
-
-          <h4 className="flex-wrap text-center font-text text-2xl tracking-widest">
-            Spend, manage & pay bills worldwide with Gotok virtual cards
-          </h4>
-        </section>
-
-        <section className="flex items-center space-x-8">
-          <a
-            href="https://play.google.com/store/apps/details?id=app.gotok"
-            target="_blank"
-          >
-            <img src="./playstore.svg" alt="" />
-          </a>
-          <a
-            href="https://apps.apple.com/ng/app/gotok/id6444884980"
-            target="_blank"
-          >
-            <img src="./appstore.svg" alt="" />
-          </a>
-        </section>
-
         <section className="w-full rounded-t-[40px] bg-primary-purple pt-4 font-labilgroteskMedium text-xl text-white">
           <Marquee className="mb-6">
             <p className="mr-14 flex items-center space-x-1">
@@ -189,11 +191,10 @@ export default function Home() {
             </section>
           </section>
         </section>
-
         {/* Spend manage and pay section */}
-        <section>
+        <section className="mx-[6.8rem]">
           {/* section: header */}
-          <section className="mx-[6.8rem] my-8 w-full space-y-6 text-6xl md:grid  md:grid-flow-row md:grid-cols-[repeat(12,1fr)] md:grid-rows-[repeat(8,auto)] md:gap-2">
+          <section className="my-8 w-full space-y-6 text-6xl md:mx-[6.8rem] md:grid  md:grid-flow-row md:grid-cols-[repeat(12,1fr)] md:grid-rows-[repeat(8,auto)] md:gap-2">
             <h3 className="col-start-2 col-end-[-1] row-start-1 row-end-3">
               Spend 💸
             </h3>{" "}
@@ -205,7 +206,73 @@ export default function Home() {
               🛩️ bills with Gotok
             </h3>
           </section>
+
+          <section className="mb-[3.2rem] max-w-3xl font-labilgroteskRegular text-[2rem] font-extrabold">
+            <h3>
+              Getting started on Gotok just takes just few steps. No hassles
+            </h3>
+          </section>
+
           {/* section */}
+          <section className="mt-10 md:flex md:justify-between">
+            <section className="relative z-[500] flex max-h-[760px] flex-col items-start gap-11 overflow-hidden rounded-[40px] bg-[rgba(130,73,246,0.07)] px-8 py-[3.2rem] md:w-1/2">
+              <img
+                src="https://gotok.app/static/media/howto-pattern-one.105c67f707d7c19ec589e1aa78382d02.svg"
+                alt=""
+                className="absolute -right-40 -top-36 w-full object-cover"
+              />
+              <img
+                src="https://gotok.app/static/media/howto-pattern-one.105c67f707d7c19ec589e1aa78382d02.svg"
+                alt=""
+                className="absolute -right-20 w-full object-cover sm:-bottom-0 md:-bottom-48"
+              />
+
+              <div>
+                <div className="space-y-6">
+                  <h4 className="text-3xl">Get Started</h4>
+                  <p className="font-RotundaRegular tracking-wide">
+                    To create an account download the gotok app on mobile or
+                    visit gotok.app on the web{" "}
+                  </p>
+                  <div className="flex space-x-6">
+                    <a
+                      className=""
+                      target="_blank"
+                      href="https://play.google.com/store/apps/details?id=app.gotok"
+                      rel="noreferrer"
+                    >
+                      <img
+                        src="https://gotok.app/static/media/Google-play.a50e75e4cc3538a93a414b799c4e4caf.svg"
+                        alt="Playstore download"
+                        className=""
+                      />
+                    </a>
+                    <a
+                      className=""
+                      target="_blank"
+                      href="https://apps.apple.com/ng/app/gotok/id6444884980"
+                      rel="noreferrer"
+                    >
+                      {" "}
+                      <img
+                        src="https://gotok.app/static/media/Appstore.3c280081eab33d07e153f5c8d5bfd1aa.svg"
+                        alt="Appstore download"
+                        className=""
+                      />{" "}
+                    </a>
+                  </div>
+                  <div className="pt-6">
+                    <img
+                      src="https://gotok.app/static/media/howtophone.66490c24fc0260859456.png"
+                      alt=""
+                      className="relative z-[100] ml-9 w-[95%]"
+                    />
+                  </div>
+                </div>
+              </div>
+            </section>
+            <section className="w-2/2">2</section>
+          </section>
         </section>
       </div>
     </main>

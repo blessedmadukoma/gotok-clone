@@ -3,10 +3,87 @@
 @tailwind utilities;
 
 @font-face {
-  font-family: "Rotunda";
-  src: url("../../fonts/Rotunda/Rotunda.ttf");
-  font-weight: normal;
+  font-family: "RotundaExtraLight";
+  src: url("../../fonts/Rotunda/Fontspring-DEMO-1a-rotunda-hairline.otf");
+  font-weight: lighter;
   font-style: normal;
+}
+
+@font-face {
+  font-family: "RotundaExtraLightItalic";
+  src: url("../../fonts/Rotunda/Fontspring-DEMO-1b-rotunda-hairline-italic.otf");
+}
+
+@font-face {
+  font-family: "RotundaThin";
+  src: url("../../fonts/Rotunda/Fontspring-DEMO-2a-rotunda-thin.otf");
+}
+
+@font-face {
+  font-family: "RotundaThinItalic";
+  src: url("../../fonts/Rotunda/Fontspring-DEMO-2b-rotunda-thin-italic.otf");
+}
+
+@font-face {
+  font-family: "RotundaLight";
+  src: url("../../fonts/Rotunda/Fontspring-DEMO-3a-rotunda-light.otf");
+}
+
+@font-face {
+  font-family: "RotundaLightItalic";
+  src: url("../../fonts/Rotunda/Fontspring-DEMO-3b-rotunda-light-italic.otf");
+}
+
+@font-face {
+  font-family: "RotundaRegular";
+  src: url("../../fonts/Rotunda/Fontspring-DEMO-4a-rotunda-regular.otf");
+  /* font-weight: normal;
+  font-style: normal; */
+}
+
+@font-face {
+  font-family: "RotundaRegularItalic";
+  src: url("../../fonts/Rotunda/Fontspring-DEMO-4b-rotunda-regular-italic.otf");
+}
+
+@font-face {
+  font-family: "RotundaMedium";
+  src: url("../../fonts/Rotunda/Fontspring-DEMO-5a-rotunda-medium.otf");
+}
+
+@font-face {
+  font-family: "RotundaMediumItalic";
+  src: url("../../fonts/Rotunda/Fontspring-DEMO-5b-rotunda-medium-italic.otf");
+}
+
+@font-face {
+  font-family: "RotundaBold";
+  src: url("../../fonts/Rotunda/Fontspring-DEMO-6a-rotunda-bold.otf");
+}
+
+@font-face {
+  font-family: "RotundaBoldItalic";
+  src: url("../../fonts/Rotunda/Fontspring-DEMO-6b-rotunda-bold-italic.otf");
+}
+
+@font-face {
+  font-family: "RotundaExtraBold";
+  src: url("../../fonts/Rotunda/Fontspring-DEMO-7a-rotunda-extrabold.otf");
+}
+
+@font-face {
+  font-family: "RotundaExtraBoldItalic";
+  src: url("../../fonts/Rotunda/Fontspring-DEMO-7b-rotunda-extrabold-italic.otf");
+}
+
+@font-face {
+  font-family: "RotundaBlack";
+  src: url("../../fonts/Rotunda/Fontspring-DEMO-8a-rotunda-black.otf");
+}
+
+@font-face {
+  font-family: "RotundaBlackItalic";
+  src: url("../../fonts/Rotunda/Fontspring-DEMO-8b-rotunda-black-italic.otf");
 }
 
 @font-face {
@@ -19,8 +96,6 @@
 @font-face {
   font-family: "labilgroteskRegular";
   src: url("../../fonts/labilgrotesk/LilGrotesk-Regular.otf");
-  font-weight: normal;
-  font-style: normal;
 }
 
 @font-face {
