@@ -350,11 +350,11 @@ export default function Home() {
         </section>
 
         {/* Don't just take our word for it */}
-        <section className="rounded-t-[40px] bg-[#1b1b1e] ">
+        <section className="rounded-t-[40px] bg-[#1b1b1e]">
           <section className="w-full space-y-6 px-[7rem] py-8 font-labilgroteskMedium text-xl text-white">
             <header className="space-y-4">
               <h3 className="font-labilgroteskMedium text-3xl font-medium">
-                Don't just take our word for it
+                Don&apos;t just take our word for it
               </h3>
               <h3 className="font-RotundaRegular text-xl tracking-wide text-[#ffecc2]">
                 Here is what our users think
@@ -485,9 +485,9 @@ export default function Home() {
                     </span>
                   </header>
                   <p className="tracking-wide text-[#afadb8]">
-                    I'm glad using @gotokhq for my online shopping transaction
-                    on Aliexpress, fast and reliable to use. All thank to
-                    @EtudorM for the awareness and encouragement.
+                    I&apos;m glad using @gotokhq for my online shopping
+                    transaction on Aliexpress, fast and reliable to use. All
+                    thank to @EtudorM for the awareness and encouragement.
                   </p>
                 </a>
               </section>
