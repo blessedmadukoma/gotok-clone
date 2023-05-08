@@ -4,10 +4,10 @@ import Marquee from "react-fast-marquee";
 export default function Home() {
   return (
     <main className="min-h-screen">
-      <div>
+      <div className="bg-[#feebc7]">
         <section
           className="
-          flex flex-col items-center space-y-10 bg-[#feebc7]"
+          flex flex-col items-center space-y-10"
         >
           <Header />
           <section className="font-text text-sm  font-medium">
@@ -210,7 +210,7 @@ export default function Home() {
           </section>
         </section>
         {/* Spend manage and pay section */}
-        <section className="mx-[6.8rem]">
+        <section className="mx-[6.8rem] mb-16">
           {/* section: header */}
           <section className="my-8 w-full space-y-6 text-6xl md:mx-[6.8rem] md:grid  md:grid-flow-row md:grid-cols-[repeat(12,1fr)] md:grid-rows-[repeat(8,auto)] md:gap-2">
             <h3 className="col-start-2 col-end-[-1] row-start-1 row-end-3">
@@ -296,7 +296,7 @@ export default function Home() {
               </div>
             </section>
 
-            <section className="grid grid-cols-1 gap-y-6 space-y-10 text-center">
+            <section className="grid grid-cols-1 gap-y-6 text-center">
               <section className="relative items-center rounded-[40px] bg-[#fff8ee] bg-[rgba(130,73,246,0.071)] object-cover">
                 <img
                   src="https://gotok.app/static/media/howto-pattern-two.722c307c47f1eeb3046e581cb2c7b431.svg"
@@ -346,6 +346,188 @@ export default function Home() {
                 </div>
               </section>
             </section>
+          </section>
+        </section>
+
+        {/* Don't just take our word for it */}
+        <section className="rounded-t-[40px] bg-[#1b1b1e] ">
+          <section className="w-full space-y-6 px-[7rem] py-8 font-labilgroteskMedium text-xl text-white">
+            <header className="space-y-4">
+              <h3 className="font-labilgroteskMedium text-3xl font-medium">
+                Don't just take our word for it
+              </h3>
+              <h3 className="font-RotundaRegular text-xl tracking-wide text-[#ffecc2]">
+                Here is what our users think
+              </h3>
+            </header>
+
+            {/* testimonials */}
+            <section className="grid grid-cols-1 gap-8 md:grid-cols-3">
+              <section className="rounded-3xl bg-[#242328] p-7 font-RotundaRegular text-[14px]">
+                <a
+                  href="https://twitter.com/Nenyenwa0001/status/1608899589796679681?s=20&t=NLzNSPIhMEKOVBkRh4GU6w"
+                  target="_blank"
+                >
+                  <header className="mb-3 flex space-x-4">
+                    <div>
+                      <img
+                        src="https://pbs.twimg.com/profile_images/1609993854400299008/agvNhLHw_x96.jpg"
+                        alt="twitter profile"
+                        className="h-[56px] rounded-[10px]"
+                      />
+                    </div>
+                    <span className="mx-[.8rem]">
+                      <h5>0xTega.eth</h5>
+                      <span>&#64;0xtega_</span>
+                    </span>
+                  </header>
+                  <p className="tracking-wide text-[#afadb8]">
+                    This is where @gotokhq comes 😎😎 You need no worry about
+                    making international payments with any more @gotokhq gat you
+                    covered
+                    https://twitter.com/Fosudo/status/1608534393215406080
+                  </p>
+                </a>
+              </section>
+
+              <section className="rounded-3xl bg-[#242328] p-7 font-RotundaRegular text-[14px]">
+                <a
+                  href="https://twitter.com/ace_taze/status/1610779115468079106?s=46&t=YnDf4n0kdwuboUQPWTs_jg"
+                  target="_blank"
+                >
+                  <header className="mb-3 flex space-x-4">
+                    <div>
+                      <img
+                        src="https://pbs.twimg.com/profile_images/1623461797087924224/iq_dEPCu_x96.jpg"
+                        alt="twitter profile"
+                        className="h-[56px] rounded-[10px]"
+                      />
+                    </div>
+                    <span>
+                      <h5>𝚃𝚊𝚣𝚎🩺📊</h5>
+                      <p>@ace_taze</p>
+                    </span>
+                  </header>
+                  <p className="tracking-wide text-[#afadb8]">
+                    @binance and @gotokhq literally blew my mind now. For months
+                    I have been looking for a way to be making online payments
+                    since most Nigerian cards cannot and it made me unable to
+                    renew all my subscriptions. It was very sad
+                  </p>
+                </a>
+              </section>
+
+              <section className="rounded-3xl bg-[#242328] p-7 font-RotundaRegular text-[14px]">
+                <a
+                  href="https://twitter.com/TradewithTwiz/status/1615671312399355905"
+                  target="_blank"
+                >
+                  <header className="mb-3 flex space-x-4">
+                    <div>
+                      <img
+                        src="https://pbs.twimg.com/profile_images/1618357967715278855/h5m3Fb4B_x96.jpg"
+                        alt="twitter profile"
+                        className="h-[56px] rounded-[10px]"
+                      />
+                    </div>
+                    <span>
+                      <h5>Trader Twiz🧠🪔</h5>
+                      <p>@TradewithTwiz</p>
+                    </span>
+                  </header>
+                  <p className="tracking-wide text-[#afadb8]">
+                    @gotokhq @phantom I love the solution you guys are building
+                    and I’m definitely sharing the goodnews to everyone around
+                  </p>
+                </a>
+              </section>
+
+              <section className="rounded-3xl bg-[#242328] p-7 font-RotundaRegular text-[14px]">
+                <a
+                  href="https://twitter.com/ruthezimoha/status/1613844271060205568"
+                  target="_blank"
+                >
+                  <header className="mb-3 flex space-x-4">
+                    <div>
+                      <img
+                        src="https://pbs.twimg.com/profile_images/1542900175190081536/Akr8rOGA_x96.jpg"
+                        alt="twitter profile"
+                        className="h-[56px] rounded-[10px]"
+                      />
+                    </div>
+                    <span>
+                      <h5>Ruth</h5>
+                      <p>@ruthezimoha</p>
+                    </span>
+                  </header>
+                  <p className="tracking-wide text-[#afadb8]">
+                    @gotokhq Gotok is definitely providing solutions
+                  </p>
+                </a>
+              </section>
+
+              <section className="rounded-3xl bg-[#242328] p-7 font-RotundaRegular text-[14px]">
+                <a
+                  href="https://twitter.com/Valenti21188631/status/1603106315093557249"
+                  target="_blank"
+                >
+                  <header className="mb-3 flex space-x-4">
+                    <div>
+                      <img
+                        src="https://pbs.twimg.com/profile_images/1611854279932788741/5KprvTa9_x96.jpg"
+                        alt="twitter profile"
+                        className="h-[56px] rounded-[10px]"
+                      />
+                    </div>
+                    <span>
+                      <h5>Valentine</h5>
+                      <p>@Valenti21188631</p>
+                    </span>
+                  </header>
+                  <p className="tracking-wide text-[#afadb8]">
+                    I'm glad using @gotokhq for my online shopping transaction
+                    on Aliexpress, fast and reliable to use. All thank to
+                    @EtudorM for the awareness and encouragement.
+                  </p>
+                </a>
+              </section>
+
+              <section className="rounded-3xl bg-[#242328] p-7 font-RotundaRegular text-[14px]">
+                <a
+                  href="https://twitter.com/Sk1_ll3/status/1654129610131402752?t=Qkos-RTT0xE-uxfL65ESVg&s=08"
+                  target="_blank"
+                >
+                  <header className="mb-3 flex space-x-4">
+                    <div>
+                      <img
+                        src="https://twitter.com/Sk1_ll3/photo"
+                        alt="twitter profile"
+                        className="h-[56px] rounded-[10px]"
+                      />
+                    </div>
+                    <span>
+                      <h5>Skillz.go🥷🏿</h5>
+                      <p>@Sk1_ll3</p>
+                    </span>
+                  </header>
+                  <p className="tracking-wide text-[#afadb8]">
+                    Try Gotok, it works for me
+                  </p>
+                </a>
+              </section>
+            </section>
+          </section>
+
+          {/* FAQs */}
+          <section className="w-full space-y-6 rounded-t-[52px] bg-[#fffbf2] px-[7rem] py-8 font-labilgroteskMedium text-3xl font-bold">
+            <header className="space-y-4">
+              <h3 className="max-w-[500px] font-labilgroteskMedium text-4xl font-medium">
+                Frequently Asked Questions.
+              </h3>
+              <h3 className="font-RotundaRegular text-xl tracking-wide">
+                Some of the most frequently asked questions.
+              </h3>
+            </header>
           </section>
         </section>
       </div>
