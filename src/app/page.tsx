@@ -30,18 +30,36 @@ export default function Home() {
             </h4>
           </section>
           <section className="flex items-center space-x-8 pb-10">
-            <a
-              href="https://play.google.com/store/apps/details?id=app.gotok"
-              target="_blank"
-            >
-              <img src="./playstore.svg" alt="" />
-            </a>
-            <a
-              href="https://apps.apple.com/ng/app/gotok/id6444884980"
-              target="_blank"
-            >
-              <img src="./appstore.svg" alt="" />
-            </a>
+            <div className="relative">
+              <div className="absolute left-[5px] top-1 z-[-1] h-full w-full rounded-[42px] bg-[#c9adff] content-['_']"></div>
+              <a
+                className="relative"
+                target="_blank"
+                href="https://play.google.com/store/apps/details?id=app.gotok"
+                rel="noreferrer"
+              >
+                <img
+                  src="https://gotok.app/static/media/Google-play.a50e75e4cc3538a93a414b799c4e4caf.svg"
+                  alt="Playstore download"
+                />
+              </a>
+            </div>
+            <div className="relative">
+              <div className="absolute left-[5px] top-1 z-[-1] h-full w-full rounded-[42px] bg-[#c9adff] content-['_']">
+                123
+              </div>
+              <a
+                className="relative"
+                target="_blank"
+                href="https://apps.apple.com/ng/app/gotok/id6444884980"
+                rel="noreferrer"
+              >
+                <img
+                  src="https://gotok.app/static/media/Appstore.3c280081eab33d07e153f5c8d5bfd1aa.svg"
+                  alt="Appstore download"
+                />
+              </a>
+            </div>
           </section>
         </section>
         <section className="w-full rounded-t-[40px] bg-primary-purple pt-4 font-labilgroteskMedium text-xl text-white">
@@ -214,8 +232,8 @@ export default function Home() {
           </section>
 
           {/* section */}
-          <section className="mt-10 md:flex md:justify-between">
-            <section className="relative z-[500] flex max-h-[760px] flex-col items-start gap-11 overflow-hidden rounded-[40px] bg-[rgba(130,73,246,0.07)] px-8 py-[3.2rem] md:w-1/2">
+          <section className="mt-10 grid grid-cols-1 gap-y-10 md:grid-cols-2 md:space-x-10">
+            <section className="relative flex max-h-[760px] flex-col items-start gap-11 overflow-hidden rounded-[40px] bg-[rgba(130,73,246,0.07)] px-14 py-[3.2rem]">
               <img
                 src="https://gotok.app/static/media/howto-pattern-one.105c67f707d7c19ec589e1aa78382d02.svg"
                 alt=""
@@ -235,31 +253,37 @@ export default function Home() {
                     visit gotok.app on the web{" "}
                   </p>
                   <div className="flex space-x-6">
-                    <a
-                      className=""
-                      target="_blank"
-                      href="https://play.google.com/store/apps/details?id=app.gotok"
-                      rel="noreferrer"
-                    >
-                      <img
-                        src="https://gotok.app/static/media/Google-play.a50e75e4cc3538a93a414b799c4e4caf.svg"
-                        alt="Playstore download"
-                        className=""
-                      />
-                    </a>
-                    <a
-                      className=""
-                      target="_blank"
-                      href="https://apps.apple.com/ng/app/gotok/id6444884980"
-                      rel="noreferrer"
-                    >
-                      {" "}
-                      <img
-                        src="https://gotok.app/static/media/Appstore.3c280081eab33d07e153f5c8d5bfd1aa.svg"
-                        alt="Appstore download"
-                        className=""
-                      />{" "}
-                    </a>
+                    <div className="relative">
+                      <div className="absolute left-[5px] top-1 z-[-1] h-full w-full rounded-[42px] bg-[#c9adff] content-['_']"></div>
+                      <a
+                        className="relative"
+                        target="_blank"
+                        href="https://play.google.com/store/apps/details?id=app.gotok"
+                        rel="noreferrer"
+                      >
+                        <img
+                          src="https://gotok.app/static/media/Google-play.a50e75e4cc3538a93a414b799c4e4caf.svg"
+                          alt="Playstore download"
+                          className=""
+                        />
+                      </a>
+                    </div>
+                    <div className="relative">
+                      <div className="absolute left-[5px] top-1 z-[-1] h-full w-full rounded-[42px] bg-[#c9adff] content-['_']"></div>
+                      <a
+                        className="relative"
+                        target="_blank"
+                        href="https://apps.apple.com/ng/app/gotok/id6444884980"
+                        rel="noreferrer"
+                      >
+                        {" "}
+                        <img
+                          src="https://gotok.app/static/media/Appstore.3c280081eab33d07e153f5c8d5bfd1aa.svg"
+                          alt="Appstore download"
+                          className=""
+                        />{" "}
+                      </a>
+                    </div>
                   </div>
                   <div className="pt-6">
                     <img
@@ -271,7 +295,57 @@ export default function Home() {
                 </div>
               </div>
             </section>
-            <section className="w-2/2">2</section>
+
+            <section className="grid grid-cols-1 gap-y-6 space-y-10 text-center">
+              <section className="relative items-center rounded-[40px] bg-[#fff8ee] bg-[rgba(130,73,246,0.071)] object-cover">
+                <img
+                  src="https://gotok.app/static/media/howto-pattern-two.722c307c47f1eeb3046e581cb2c7b431.svg"
+                  alt="steps to download"
+                  className="absolute -top-28 block"
+                />
+                <img
+                  src="https://gotok.app/static/media/cards-stack.2d218ca777efb6dd6a3014bfbc656032.svg"
+                  alt="steps to download"
+                  className="relative top-0 ml-auto mr-auto block w-[50%]"
+                />
+
+                <div className="relative mx-10 mb-4 mt-10 text-center">
+                  <h3 className="font-labilgroteskMedium text-2xl">
+                    Create a USD Card
+                  </h3>
+
+                  <span className="font-RotundaLight tracking-wide">
+                    Create and customize your card by choosing the variant that
+                    fits your need
+                  </span>
+                </div>
+              </section>
+
+              <section className="flex-end relative flex flex-col items-center rounded-[40px] bg-[#fee] bg-[rgba(130,73,246,0.071)] object-cover">
+                <div className="relative ml-auto mr-auto block w-[50%]">
+                  <img
+                    src="https://gotok.app/static/media/howto-pattern-three.c51e93bf38e7414c4ce1a552b183fc80.svg"
+                    alt="steps to download"
+                    // className=" relative ml-auto mr-auto block "
+                  />
+                </div>
+                <img
+                  src="https://gotok.app/static/media/cards-stack-glow.576d67c99689457630c8113d4fd2f6ce.svg"
+                  alt="steps to download"
+                  className="absolute top-0 ml-auto mr-auto block w-[60%]"
+                />
+
+                <div className="relative mx-10 mb-4  text-center">
+                  <h3 className="font-labilgroteskMedium text-2xl">
+                    Make Payments Online
+                  </h3>
+
+                  <span className="font-RotundaLight tracking-wide">
+                    Load up your card and start making payment
+                  </span>
+                </div>
+              </section>
+            </section>
           </section>
         </section>
       </div>
