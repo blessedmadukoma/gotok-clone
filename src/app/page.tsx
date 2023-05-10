@@ -1,8 +1,14 @@
+"use client";
 import Header from "@/components/Header";
 import Marquee from "react-fast-marquee";
 import { isMobile } from "react-device-detect";
+import { useEffect } from "react";
 
 export default function Home() {
+  useEffect(() => {
+    isMobile ? "TrackIT is not supported on mobile devices." : "";
+  }, []);
+
   if (isMobile) {
     return (
       <div className="grid min-h-screen place-items-center text-xs">
