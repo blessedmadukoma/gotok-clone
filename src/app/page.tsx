@@ -1,7 +1,16 @@
 import Header from "@/components/Header";
 import Marquee from "react-fast-marquee";
+import { isMobile } from "react-device-detect";
 
 export default function Home() {
+  if (isMobile) {
+    return (
+      <div className="grid min-h-screen place-items-center text-xs">
+        This platform is only accessible using a PC.
+      </div>
+    );
+  }
+
   return (
     <main className="min-h-screen">
       <div className="bg-[#feebc7]">
@@ -368,7 +377,7 @@ export default function Home() {
                   href="https://twitter.com/Nenyenwa0001/status/1608899589796679681?s=20&t=NLzNSPIhMEKOVBkRh4GU6w"
                   target="_blank"
                 >
-                  <header className="mb-3 flex space-x-4">
+                  <header className="mb-3 flex flex-wrap space-x-4">
                     <div>
                       <img
                         src="https://pbs.twimg.com/profile_images/1609993854400299008/agvNhLHw_x96.jpg"
@@ -385,7 +394,6 @@ export default function Home() {
                     This is where @gotokhq comes 😎😎 You need no worry about
                     making international payments with any more @gotokhq gat you
                     covered
-                    https://twitter.com/Fosudo/status/1608534393215406080
                   </p>
                 </a>
               </section>
